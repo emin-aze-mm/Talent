@@ -1,0 +1,260 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.enter {
+  overflow: hidden;
+}
+
+.enter .circle {
+  margin: 0 auto;
+  width: 100%;
+  background: -webkit-gradient(linear, right top, left top, color-stop(15%, #204868), color-stop(33%, #1f84be), color-stop(64%, #17cfc7), color-stop(91%, #32f0bb)) left bottom no-repeat;
+  background: linear-gradient(to left, #204868 15%, #1f84be 33%, #17cfc7 64%, #32f0bb 91%) left bottom no-repeat;
+  height: 1500px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-bottom-right-radius: 70%;
+  margin-top: -1000px;
+  z-index: -1;
+  position: relative;
+}
+
+.enter img {
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  bottom: 70%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.about .left {
+  padding-top: 10em;
+}
+
+.about .left h1 {
+  color: #131341;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.about .left h3 {
+  color: aquamarine;
+  font-weight: 600;
+}
+
+.about .left p {
+  font-size: 25px;
+}
+
+.about .left .logo {
+  margin-top: 80px;
+}
+
+.about .right {
+  margin-bottom: 30px;
+  padding-top: 8em;
+}
+
+.about .right img {
+  width: 500px;
+  height: 500px;
+  margin-left: 40px;
+}
+
+.first {
+  padding: 0em 0em 4em 0;
+}
+
+.first .enter {
+  z-index: -1;
+}
+
+.first .enter .title {
+  position: absolute;
+  left: 30%;
+  margin-top: 90px;
+  color: #32f0bb;
+  font-size: 20px;
+}
+
+.first .enter .title span {
+  color: #fff;
+  border-right: 1px solid white;
+  padding-right: 6px;
+}
+
+.first .enter .circle {
+  z-index: -1;
+}
+
+.first form {
+  margin-top: -350px !important;
+  z-index: 1;
+  background-color: #fff !important;
+  border-radius: 6px;
+  margin: 0 auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 700px;
+  padding: 50px 70px;
+  border-bottom: none;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #1f82be), color-stop(33%, #1f84be), color-stop(64%, #17cfc7), color-stop(91%, #32f0bb)) left bottom no-repeat;
+  background: linear-gradient(to right, #1f82be 15%, #1f84be 33%, #17cfc7 64%, #32f0bb 91%) left bottom no-repeat;
+  background-size: 100% 5px;
+}
+
+.first form input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  margin-bottom: 10px;
+  border: 1px solid  #ced4da;
+  border-radius: .375rem;
+}
+
+.first form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.first form input[type=number] {
+  width: 30%;
+}
+
+.first form .form-group {
+  margin-bottom: 10px;
+}
+
+.first .next {
+  margin-top: 40px !important;
+  width: 700px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.first .next .left img {
+  width: 190px;
+  height: 35px;
+}
+
+.first .next .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.first .next .right a {
+  padding: 3px 45px;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #1f82be), color-stop(33%, #1f84be), color-stop(64%, #17cfc7), color-stop(91%, #32f0bb));
+  background: linear-gradient(90deg, #1f82be 15%, #1f84be 33%, #17cfc7 64%, #32f0bb 91%);
+}
+
+.level2 .point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.level2 .point .points {
+  margin: 13px 0;
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  width: 80%;
+}
+
+.level2 .name p {
+  margin-bottom: 15px;
+}
+
+.level2 .name p span {
+  font-weight: 600;
+}
+
+.calc .right {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.calc .right a {
+  padding: 6px 45px;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #1f82be), color-stop(33%, #1f84be), color-stop(64%, #17cfc7), color-stop(91%, #32f0bb));
+  background: linear-gradient(90deg, #1f82be 15%, #1f84be 33%, #17cfc7 64%, #32f0bb 91%);
+}
+
+.level4 {
+  text-align: center;
+  padding: 22px;
+}
+
+.level4 p {
+  font-size: 18px;
+}
+
+.level4 .star {
+  font-size: 30px;
+}
+
+.level4 .stars {
+  margin-top: 70px;
+}
+
+.level4 .star:nth-child(1) {
+  color: #00ff8c;
+}
+
+.level4 .star:nth-child(2) {
+  color: #00ffc8;
+}
+
+.level4 .star:nth-child(3) {
+  color: #00ffe5;
+}
+
+.level4 .star:nth-child(4) {
+  color: #0095ff;
+}
+
+.level4 .star:nth-child(5) {
+  color: #0f2a48;
+}
+/*# sourceMappingURL=style.css.map */
